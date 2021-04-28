@@ -1,0 +1,47 @@
+.middlecenter {
+  height: 300px;
+  line-height: 300px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.75rem;
+}
+
+.large { font-size: 130% }
+.small { font-size: 70% }
+.vsmall { font-size: 50% }
+
+.red { color: red;}
+.blue { color: blue;}
+
+/* Default widths for .pull-left-xx and .pull-right-xx */
+:root {
+  --left-width: 64%;
+  --right-width: 32%;
+}
+
+.pull-left-xx {
+  float: left;
+  width: var(--left-width);
+}
+.pull-right-xx {
+  float: right;
+  width: var(--right-width);
+}
+
+.pull-left-twothirds {
+  float: left;
+  width: 64%;
+}
+.pull-right-third {
+  float: right;
+  width: 32%;
+}
+
+.pull-right-twothirds {
+  float: right;
+  width: 65%;
+}
+.pull-left-third {
+  float: left;
+  width: 32%;
+}
