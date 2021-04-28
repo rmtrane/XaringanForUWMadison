@@ -1,0 +1,16 @@
+Package: XaringanForUWMadison
+Type: Package
+Title: UW-Madison Themed Xaringan Slides
+Version: 0.1.0
+Authors@R:
+    person(given = "Ralph",
+           family = "Møller Trane",
+           role = c("aut", "cre"),
+           email = "rmtrane@gmail.com")
+Description: Xaringan template with a UW-Madison theme.
+License: MIT + file LICENSE
+URL: https://github.com/rmtrane/XaringanForUWMadison
+Encoding: UTF-8
+LazyData: true
+Imports:
+    xaringan

@@ -1,0 +1,34 @@
+---
+title: "Example title"
+subtitle: "Example subtitle"
+author: "Example author"
+institute: "University of Wisconsin--Madison<br><br>"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    self_contained: true
+    css: [uwmadison.css, default-fonts, extra-classes.css]
+    lib_dir: libs
+    nature:
+      titleSlideClass: [center, top, .title-slide]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+      navigation:
+        scroll: false
+---
+
+# First Slide
+
+## Subtitle
+
+---
+
+# Second Slide
+
+R-chunk:
+
+```{r}
+2+2
+```
